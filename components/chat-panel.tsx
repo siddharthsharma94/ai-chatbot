@@ -36,24 +36,25 @@ export function ChatPanel({
 
   const exampleMessages = [
     {
-      heading: 'What are the',
-      subheading: 'trending memecoins today?',
-      message: `What are the trending memecoins today?`
+      heading: 'How many',
+      subheading: `leagues am I in?`,
+      message: `How many Sleeper fantasy football leagues am I currently participating in?`
     },
     {
-      heading: 'What is the price of',
-      subheading: '$DOGE right now?',
-      message: 'What is the price of $DOGE right now?'
+      heading: 'Show me the top',
+      subheading: 'scorers in my Sleeper league',
+      message: `Can you list the top fantasy scorers in my Sleeper league for this season?`
     },
     {
-      heading: 'I would like to buy',
-      subheading: '42 $DOGE',
-      message: `I would like to buy 42 $DOGE`
+      heading: 'Check the latest',
+      subheading: 'injury report for my players',
+      message:
+        'What is the latest injury status of my players in Sleeper fantasy football?'
     },
     {
-      heading: 'What are some',
-      subheading: `recent events about $DOGE?`,
-      message: `What are some recent events about $DOGE?`
+      heading: 'What are the recent',
+      subheading: `player trades in Sleeper?`,
+      message: `What are the most recent player trades in my Sleeper fantasy football league?`
     }
   ]
 
